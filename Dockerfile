@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy the contents of the current directory to the nginx html folder
-COPY . /usr/share/nginx/html
+COPY . /usr/share/nginx/html 
 
 # Expose port 80 to access the application in the browser
 EXPOSE 80
